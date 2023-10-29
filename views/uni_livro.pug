@@ -1,0 +1,10 @@
+img( src="https://cdn-icons-png.flaticon.com/512/93/93634.png"
+	id="reset-but"
+	hx-get="/data"
+	hx-target="main"
+	hx-trigger="click")
+
+div(style="background-color: "+livro.imagem.url)
+	p= livro.titulo
+	p= livro.autor
+	p= livro.ano_de_publicacao

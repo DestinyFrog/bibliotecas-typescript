@@ -1,0 +1,61 @@
+#search-box {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+
+	width: 300px;
+	height: 40px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	border: 0;
+	border: 1px solid black;
+	border-radius: 20px;
+	background-color: aliceblue;
+}
+
+#search-box input {
+	width: 76%;
+	height: 80%;
+
+	border: 0;
+	background-color: transparent;
+	outline: none;
+
+	font-size: 22px;
+}
+
+#search-box img {
+	height: 80%;
+
+	margin-right: 10px;
+	border: 0;
+	background-color: transparent;
+}
+
+body {
+	background-color: crimson;
+}
+
+main {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 10px;
+}
+
+.card {
+	background-color: aliceblue;
+	border: 1px solid black;
+}
+
+.card img {
+	min-width: 100%;
+	min-height: 240px;
+	height: 240px;
+	object-fit: cover;
+
+	border: 1px solid aliceblue;
+}

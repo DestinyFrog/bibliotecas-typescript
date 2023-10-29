@@ -1,0 +1,52 @@
+[
+	{
+		"id": 1,
+		"titulo": "1984",
+		"autor": "George Orwell",
+		"ano_de_publicacao": 1948,
+		"imagem": {
+			"url": "https://lojamonstra.com.br/loja/wp-content/uploads/2023/02/1984-darkside.jpg",
+			"alt": "capa - 1984 - George Orwell"
+		}
+	},
+	{
+		"id": 2,
+		"titulo": "O Conto de Aia",
+		"autor": "Margaret Atwood",
+		"ano_de_publicacao": 1985,
+		"imagem": {
+			"url": "https://m.media-amazon.com/images/I/51louqeHO5L.jpg",
+			"alt": "capa - O Conto de Aia - Margaret Atwood"
+		}
+	},
+	{
+		"id": 3,
+		"titulo": "O Homem do Castelo Alto",
+		"autor": "Philip K. Dick",
+		"ano_de_publicacao": 1962,
+		"imagem": {
+			"url": "https://3.bp.blogspot.com/-iY0JV6lL4wI/UEN5ZBWRTiI/AAAAAAAAAf8/wciTM_jWHQg/s1600/o+homem+do+castelo+alto.jpg",
+			"alt": "capa - O Homem do Castelo Alto - Philip K. Dick"
+		}
+	},
+	{
+		"id": 4,
+		"titulo": "Laranja Mecânica",
+		"autor": "Anthony Burgess",
+		"ano_de_publicacao": 1962,
+		"imagem": {
+			"url": "https://m.media-amazon.com/images/I/61t3Oh8AK-L._AC_UF1000,1000_QL80_.jpg",
+			"alt": "capa - Laranja Mecânica - Anthony Burgess"
+		}
+	},
+	{
+		"id": 5,
+		"titulo": "O Cortiço",
+		"autor": "Aluísio Azevedo",
+		"ano_de_publicacao": 1890,
+		"imagem": {
+			"url": "https://m.media-amazon.com/images/I/81m1emiSp-S._AC_UF1000,1000_QL80_.jpg",
+			"alt": "capa - O Cortiço - Aluísio Azevedo"
+		}
+	}
+]

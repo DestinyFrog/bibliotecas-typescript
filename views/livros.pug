@@ -1,0 +1,10 @@
+each livro in livros
+	div(class="card"
+		hx-get="/data/uni_livro/"+livro.id
+		hx-trigger="click"
+		hx-target="main")
+
+		img(src=livro.imagem.url alt=livro.imagem.alt)
+		h3= livro.titulo
+		h5= livro.autor
+		h5= livro.ano_de_publicacao
