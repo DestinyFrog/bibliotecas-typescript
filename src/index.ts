@@ -9,14 +9,11 @@ const HOST = process.env.HOST || "127.0.0.1"
 
 const app = express()
 
-app.set("view engine", "pug")
+app.set("view engine", "ejs")
 app.set("views",  join(__dirname,"..","views") )
 
-app.use( "/www", express.static( join(__dirname,"..","public") ) )
-app.use( "/data", router_livros )
-
-app.get( "/", ( _, res ) =>
-	res.end( "Hello, World !!" ) )
+app.use( "/", express.static( join(__dirname,"..","public") ) )
+app.use( "/", router_livros )
 
 app.listen( PORT, HOST,
 	() => console.log(`Listening on http://${HOST}:${PORT}`) )
