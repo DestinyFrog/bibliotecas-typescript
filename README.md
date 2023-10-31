@@ -12,7 +12,7 @@ Onde haverá uma lista dos livros, uma página para verificar informações espe
 | Gerenciador de Pacotes | Yarn |
 | Roteamento | Express.js |
 | Front - End | HTML<br>CSS<br>JavaScript<br>HTMX |
-| Templates | Pug |
+| Templates | EJS |
 | Linter | ESLint |
 | ORM | Não Escolhido |
 | Banco de Dados | Não Escolhido |
