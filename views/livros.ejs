@@ -1,0 +1,18 @@
+
+<% livros.forEach( ({ id, titulo, autor, ano_de_publicacao, imagem }) => { %>
+
+	<div class="card">
+		<figure>
+			<img src="<%= imagem.url %>" alt="<%= imagem.alt %>">
+		</figure>
+
+		<div class="card-info">
+			<a href="/uni_livro/<%= id %>">
+				<h3><%= titulo %></h3>
+			</a>
+			<h5><%= autor %></h5>
+			<h5><%= ano_de_publicacao %></h5>
+		</div>
+	</div>
+
+<% }) %>
