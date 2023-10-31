@@ -12,12 +12,16 @@
 
 <body>
 	<div id="search-box">
-		<img src="/www/lupa.svg" alt="icone-pesquisa">
-		<input type="text" placeholder="...">
+		<img src="/img/lupa.svg" alt="icone-pesquisa">
+		<input type="text" placeholder="..." id="inp_proc">
 	</div>
 
+	<header>
+		
+	</header>
+
 	<main>
-		<p hx-get="/data" hx-swap="outerHTML" hx-trigger="load">Loading ...</p>
+		<p hx-get="/todos_livros" hx-swap="outerHTML" hx-trigger="load">Loading ...</p>
 	</main>
 
 	<script src="./script.js"></script>

@@ -25,7 +25,7 @@
 	background-color: transparent;
 	outline: none;
 
-	font-size: 22px;
+	font-size: 16px;
 }
 
 #search-box img {
@@ -36,14 +36,43 @@
 	background-color: transparent;
 }
 
+header {
+	width: 100vw;
+	height: 100px;
+	background-color: aliceblue;
+}
+
 body {
 	background-color: crimson;
+
+	width: 100vw;
 }
 
 main {
 	display: grid;
-	grid-template-columns: repeat(3,1fr);
+	grid-template-columns: repeat(6,1fr);
 	grid-gap: 10px;
+
+	max-width: 100%;
+	padding: 16px;
+}
+
+@media only screen and (max-width: 1200px) {
+	main {
+		grid-template-columns: repeat(5,1fr);
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	main {
+		grid-template-columns: repeat(3,1fr);
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	main {
+		grid-template-columns: repeat(2,1fr);
+	}
 }
 
 .card {
@@ -53,9 +82,13 @@ main {
 
 .card img {
 	min-width: 100%;
-	min-height: 240px;
+	min-height: 260px;
 	height: 240px;
 	object-fit: cover;
 
 	border: 1px solid aliceblue;
+}
+
+.card-info {
+	margin: 10px;
 }
