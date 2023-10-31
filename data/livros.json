@@ -48,5 +48,15 @@
 			"url": "https://m.media-amazon.com/images/I/81m1emiSp-S._AC_UF1000,1000_QL80_.jpg",
 			"alt": "capa - O Cortiço - Aluísio Azevedo"
 		}
+	},
+	{
+		"id": 6,
+		"titulo": "Dom Casmurro",
+		"autor": "Machado de Assis",
+		"ano_de_publicacao": 1889,
+		"imagem": {
+			"url": "https://m.media-amazon.com/images/I/61L1rQckslL._AC_UF1000,1000_QL80_.jpg",
+			"alt": "capa - Dom Casmurro - Machado de Assis"
+		}
 	}
 ]
