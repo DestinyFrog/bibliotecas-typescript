@@ -1,15 +1,17 @@
 
 <%- include('./partials/head'); %>
 
-<figure>
-	<img src="<%= livro.imagem.url %>" alt="<%= livro.imagem.alt %>">
-	<figcaption>Capa - <%= livro.titulo %>, <%= livro.autor %></figcaption>
-</figure>
+<!-- <figure> -->
+	<img id="capa" src="<%= livro.imagem.url %>" alt="<%= livro.imagem.alt %>">
+	<!-- <figcaption>Capa - <%= livro.titulo %>, <%= livro.autor %></figcaption> -->
+<!-- </figure> -->
 
 <section>
-	<h1><%= livro.titulo %></h1>
-	<h1><%= livro.autor %></h1>
-	<h3><%= livro.ano_de_publicacao %></h3>
+	<h1><%= livro.titulo %> (<%= livro.ano_de_publicacao %>)</h1>
+	<h3><%= livro.autor %></h3>
+	<hr/>
+	<br/>
+	<p><%= livro.descricao %></p>
 </section>
 
 <%- include('./partials/foot'); %>

@@ -7,7 +7,8 @@
 		"imagem": {
 			"url": "https://lojamonstra.com.br/loja/wp-content/uploads/2023/02/1984-darkside.jpg",
 			"alt": "capa - 1984 - George Orwell"
-		}
+		},
+		"descricao": "Em uma Londres sombria, George Orwell cria um mundo futuro em que impera a censura e a vigilância máxima da população. Os fatos são distorcidos por um regime totalitário que manipula as pessoas e centraliza o poder nos ideais do Grande Irmão."
 	},
 	{
 		"id": 2,
@@ -17,7 +18,8 @@
 		"imagem": {
 			"url": "https://m.media-amazon.com/images/I/51louqeHO5L.jpg",
 			"alt": "capa - O Conto de Aia - Margaret Atwood"
-		}
+		},
+		"descricao": "Trata-se de um romance distópico passado nos Estados Unidos num contexto bastante catastrófico: um grupo de fundamentalistas religiosos consegue derrubar o governo e assume o poder fundando a República de Gilead."
 	},
 	{
 		"id": 3,
@@ -27,7 +29,8 @@
 		"imagem": {
 			"url": "https://3.bp.blogspot.com/-iY0JV6lL4wI/UEN5ZBWRTiI/AAAAAAAAAf8/wciTM_jWHQg/s1600/o+homem+do+castelo+alto.jpg",
 			"alt": "capa - O Homem do Castelo Alto - Philip K. Dick"
-		}
+		},
+		"descricao": "O Homem do Castelo Alto, produção original mais popular do serviço de streaming da Amazon, se passa em um universo paralelo, em que o eixo esmaga os aliados na 2ª Guerra e impõe uma ditadura fascista global. Alemanha e Japão dividem os EUA ao meio, exatamente como os aliados fizeram com a Alemanha em 1945."
 	},
 	{
 		"id": 4,
@@ -37,7 +40,8 @@
 		"imagem": {
 			"url": "https://m.media-amazon.com/images/I/61t3Oh8AK-L._AC_UF1000,1000_QL80_.jpg",
 			"alt": "capa - Laranja Mecânica - Anthony Burgess"
-		}
+		},
+		"descricao": "Esta é uma história de redenção duvidosa de um delinquente adolescente pela terapia de reflexo condicionado. Isso é, ao mesmo tempo, uma leitura corrente sobre o livre-arbítrio. Após a terapia de aversão, Alex se comporta como um bom membro da sociedade, embora não através da escolha."
 	},
 	{
 		"id": 5,
@@ -47,7 +51,8 @@
 		"imagem": {
 			"url": "https://m.media-amazon.com/images/I/81m1emiSp-S._AC_UF1000,1000_QL80_.jpg",
 			"alt": "capa - O Cortiço - Aluísio Azevedo"
-		}
+		},
+		"descricao": "O cortiço conta as histórias dos personagens de um cortiço carioca. A narrativa se passa no Segundo Reinado, antes da abolição da escravatura. Romance naturalista, a obra apresenta determinismo e zoomorfização. Seu autor, Aluísio Azevedo, nasceu em 1857 e faleceu em 1913."
 	},
 	{
 		"id": 6,
@@ -57,6 +62,7 @@
 		"imagem": {
 			"url": "https://m.media-amazon.com/images/I/61L1rQckslL._AC_UF1000,1000_QL80_.jpg",
 			"alt": "capa - Dom Casmurro - Machado de Assis"
-		}
+		},
+		"descricao": "Dom Casmurro, a obra mais conhecida do escritor Machado de Assis, conta a história de Bentinho e Capitu, que, apaixonados na adolescência, têm que enfrentar um obstáculo à realização de seus anseios amorosos, pois a mãe de Bentinho, D. Glória, fez uma promessa de que seu filho seria padre."
 	}
 ]
